@@ -1,0 +1,24 @@
+Domande a cui rispondere
+Cos’è nodemon? e come si usa?
+nodemon è un pacchetto npm che riavvia il server quando il codice cambia o quando il server si arresta, prima di tutto devo installare nodemon con il comando npm installa nodemon,
+fatto cio nel file chiamato " package.json" devo inserire una voce chaiamata "start": "npx nodemon server.js";
+In quale cartella vanno inserite le viste PUG?
+la viste PUG vanno inserite nella cartella views,  e saranno chaiamate nomefile.pug (vedi risposta 7)
+Quale estensione hanno i file che contengono le viste PUG?
+Come si imposta un engine module in Express?
+un engine module si imposta facendo "app.set('view engine', 'pug')";
+Qual è il comando per dire a express di elaborare una specifica pagina PUG e inviarla al client?
+il comando per elaborare una specifia pagina è Res.render(nomepag, un json che passa gli attributi)
+Cosa succede se in una riga di un template PUG non inserisco il nome di un tag (es: .ciao)
+vienne generato un div 
+Come si specifica un id css in PUG?
+un id si specifica con il #
+Come si specifica una classe css in PUG?
+una classe si specifia .page-header in Pug diventa class = "page-header" in HTML.
+Come si innesta un tag dentro un altro? (es: <div><p>ciao</p></div>)
+si intesta tramite l'uso dello spazio
+Come si dice a Express quale cartella conterrà tutti i file statici?
+app.use(express.static(__dirname + '/nomecartella'));
+In cosa viene tradotto il seguente codice PUG
+article.contenitore saluti al mondo 
+il codice Pug viene tradotto in una pagina html 
